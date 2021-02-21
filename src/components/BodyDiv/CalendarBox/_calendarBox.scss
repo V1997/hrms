@@ -1,5 +1,16 @@
 .calendar{
-    width: 100px;
-    height: 100px;
-    border: 1px solid grey;
+    margin: 10px;
+    margin-right: 20px;
+    width: 320px;
+    height: 270px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
+    -webkit-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
+    -moz-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11); 
+    .DayPicker-Weekday > abbr, .DayPicker-Caption > div{
+        font-weight: bolder;
+        font-size: 12px;
+    }   
 }

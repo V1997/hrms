@@ -1,5 +1,11 @@
-.progress{
-    width: 100px;
-    height: 100px;
-    border: 1px solid grey;
+.progressBox{
+    width: auto;
+    height: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    background: $hr_white;
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
+-webkit-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
+-moz-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
 }
