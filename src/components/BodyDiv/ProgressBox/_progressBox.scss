@@ -1,4 +1,4 @@
-.progressBox{
+.progressBox {
     width: auto;
     height: 300px;
     margin: 10px;
@@ -6,6 +6,28 @@
     background: $hr_white;
     border: 1px solid rgba(0, 0, 0, 0.055);
     box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
--webkit-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
--moz-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
+    -webkit-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
+    -moz-box-shadow: 16px 4px 389px -31px rgba(0,0,0,0.11);
+    .progressBox-heading{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .ViewAll button {
+            border: none;
+            background: $hr_accent;
+            font-weight: bold;
+            padding: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
+            font-size: 16px;
+            border-radius: 50px;
+        }
+    }
 }

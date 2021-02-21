@@ -55,7 +55,7 @@ const DashboardLayout = ({children}) =>{
                     <div className="nav-container">
                         {navItems.map((navItem, index) => (
                             <Link key={index} to={navItem.link}>
-                            <div  className={`nav-item ${navItem.link === location.pathname ? 'selected':''}`}>
+                            <div className={`nav-item ${navItem.link === location.pathname ? 'selected':''}`}>
                                 {navItem.icon}
                                 <label className="item-name">{navItem.name}</label>
                             </div>

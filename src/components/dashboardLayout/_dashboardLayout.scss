@@ -1,7 +1,7 @@
 .dashboard-layout{
     display: flex;
-    height: 98vh;
-    max-height: 98vh;
+    height: auto;
+    //max-height: 98vh;
     padding: 12px;
     background: $hr_background;
     .side-nav-bar{
