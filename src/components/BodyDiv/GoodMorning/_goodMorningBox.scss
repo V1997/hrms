@@ -1,0 +1,23 @@
+.notification-container{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background: $hr_accent;
+    display: flex;
+    justify-content: space-between;
+
+    .notification-container-text{
+        margin: 20px;
+    }
+    .notification-text{
+        width: auto;
+    }
+    .notification-container-img{
+        flex-basis: 50%;
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+
+    }
+}

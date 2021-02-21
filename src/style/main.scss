@@ -3,7 +3,6 @@
 @import "./common";
 @import "./typography";
 
-
 @import "../components/dashboardLayout/dashboardLayout";
 
 // Component
@@ -13,3 +12,12 @@
 
 //Screens
 @import "../screen/home/home";
+
+@import "../components/Button/button";
+@import "../components/BodyDiv/bodyDiv";
+@import "../components/BodyDiv/GoodMorning/goodMorningBox";
+@import "../components/BodyDiv/CalendarBox/calendarBox";
+@import "../components/BodyDiv/HrProfile/hrProfile";
+@import "../components/BodyDiv/ProgressBox/progressBox";
+
+@import "../components/image/image";

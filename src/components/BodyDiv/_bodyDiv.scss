@@ -1,0 +1,17 @@
+.bodyDiv{
+    //display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #454545; 
+    display: flex;
+    flex-direction: row;
+    .goodMorning-Progress{
+        display: flex;
+        flex-direction: column;
+    }
+    .calender-hr{
+        display: flex;
+        flex-direction: column;
+    }
+}
