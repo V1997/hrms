@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Button from '../../Button/Button'
+import Tables from '../../table/Tables'
 
 export default function ProgressBox() {
     return (
@@ -9,45 +9,9 @@ export default function ProgressBox() {
                 <h1><strong>Recruitment Progress</strong></h1>
                 <Button value="View All" name="viewAll" id="viewAll" className="ViewAll"/>
             </div>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th>Full Name</th>
-                        <th>Designation</th>
-                        <th>Status</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Profile Pic</td>
-                        <td>Project Manager</td>
-                        <td>Practical Round</td>
-                    </tr>
-                    <tr>
-                        <td>Profile Pic</td>
-                        <td>Project Manager</td>
-                        <td>Practical Round</td>
-                    </tr>
-                    <tr>
-                        <td>Profile Pic</td>
-                        <td>Project Manager</td>
-                        <td>Practical Round</td>
-                    </tr>
-                    <tr>
-                        <td>Profile Pic</td>
-                        <td>Project Manager</td>
-                        <td>Practical Round</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Showing 4 out of 4 results</td>
-                        <td>View All</td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div>
+                <Tables />
+            </div>
         </div>
     )
 }
